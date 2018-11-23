@@ -5,6 +5,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@babel/polyfill": "^7.0.0",
     "connected-react-router": "^5.0.1",
     "history": "^4.7.2",
     "ramda": "^0.26.0",

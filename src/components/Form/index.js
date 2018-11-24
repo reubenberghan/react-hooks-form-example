@@ -8,7 +8,7 @@ const initialState = {
   email: ''
 }
 
-function reducer (state, { type, payload }) {
+function formReducer (state, { type, payload }) {
   switch (type) {
     case NAME_CHANGED:
       return {
@@ -26,7 +26,7 @@ function reducer (state, { type, payload }) {
 }
 
 export default function Form () {
-  const [state, dispatch] = useReducer(reducer, initialState)
+  const [state, dispatch] = useReducer(formReducer, initialState)
   const { name, email } = state
 
   function makeHandleOnChange (type) {

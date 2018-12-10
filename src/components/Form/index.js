@@ -1,5 +1,6 @@
 import * as React from 'react'
-import { useReducer } from 'react'
+
+const { useReducer } = React
 
 const NAME_CHANGED = 'NAME_CHANGED'
 const EMAIL_CHANGED = 'EMAIL_CHANGED'

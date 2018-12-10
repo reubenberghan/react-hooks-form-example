@@ -1,4 +1,6 @@
 {
-  "babel": true,
+  "babel": {
+    "presets": [ "react-app" ]
+  },
   "plugins": ["jsdom-quokka-plugin"]
 }

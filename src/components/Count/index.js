@@ -1,8 +1,9 @@
 import * as React from 'react'
-import { useState, useEffect } from 'react'
 
 // import { render } from 'react-dom'
 // import ReactTestUtils from 'react-dom/test-utils'
+
+const { useState, useEffect } = React
 
 export default function Count () {
   const [count, setCount] = useState(0)
@@ -21,7 +22,7 @@ export default function Count () {
 
 // document.body.innerHTML += `<div id="root"></div>`
 
-// render(<App />, document.getElementById('root'))
+// render(<Count />, document.getElementById('root'))
 
 // const button = document.getElementsByTagName('button')[0]
 

@@ -69,7 +69,7 @@
   "lint-staged": {
     "linters": {
       "src/**/*.js": [
-        "prettier-standard",
+        "standard",
         "git add"
       ]
     }
@@ -78,7 +78,7 @@
     "build": "react-scripts build",
     "coverage": "react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject",
-    "format": "prettier-standard 'src/**/*.js'",
+    "format": "standard 'src/**/*.js'",
     "precommit": "lint-staged",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom"
